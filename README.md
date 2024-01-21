@@ -16,3 +16,27 @@ Deployment of Amazon clone app using Terraform and jenkins ci-cd
   - Step 4 → ci-cd pipeline
   - Step5 →Monitering via Prmotheus and grafana
   - Step 6 → Terraform Destroy
+
+## Step 1 → Setup Terraform and configure aws on your local machine
+  1. **Setup Terraform**
+     To install terraform copy and paste the below commands
+     ```
+     sudo su
+    snap install terraform --classic
+     ```
+     ```
+     which terraform
+     ```
+  2.  **Configure aws**
+
+  - 
+
+  - 
+
+  - 
+
+  - 
+
+  - 
+
+  - 
