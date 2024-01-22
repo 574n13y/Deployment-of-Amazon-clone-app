@@ -49,6 +49,16 @@ Deployment of Amazon clone app using Terraform and jenkins ci-cd
    4. change this section → ami = # your ami id , key_name= #your key pair if any
       - Now run terraform commands →
       - main.tf includes userdata which links install_jenkins.sh file on which execution install jenkins,docker,trivy,and start the sonarqube container on port 9000
+        ```
+        terraform init
+        terraform validate
+        terraform plan
+        terraform apply --auto-approve
+        ```
+      - Go to your aws console and checkout the ec2 instances
+      - Here we see amazon app instance is created by terraform with the given configuration
+
+
 
   - 
 
