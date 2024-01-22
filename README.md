@@ -19,15 +19,15 @@ Deployment of Amazon clone app using Terraform and jenkins ci-cd
 
 ## Step 1 → Setup Terraform and configure aws on your local machine
   1. **Setup Terraform**
-     To install terraform copy and paste the below commands
+     - To install terraform copy and paste the below commands
      ```
      sudo su
-    snap install terraform --classic
-     ```
-     ```
-     which terraform
+     snap install terraform --classic
+      which terraform
      ```
   2.  **Configure aws**
+     - create an IAM user
+     - go to your aws account and type IAM
 
   - 
 
